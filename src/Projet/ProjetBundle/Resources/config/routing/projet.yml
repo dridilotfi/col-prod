@@ -1,0 +1,3 @@
+projet:
+    path:     /
+    defaults: { _controller: ProjetBundle:Projet:index }

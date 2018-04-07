@@ -1,0 +1,236 @@
+{% extends 'layout/layout.html.twig' %}
+{% block body %}
+    <div class="content container-fluid">
+        <div class="row">
+            <div class="col-sm-8">
+                <h4 class="page-title">Activities</h4>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="activity">
+                    <div class="activity-box">
+                        <ul class="activity-list">
+                            <li>
+                                <div class="activity-user">
+                                    <a href="profile.html" title="Lesley Grauer" data-toggle="tooltip" class="avatar">
+                                        <img alt="Lesley Grauer" src="assets/img/user.jpg" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <div class="activity-content">
+                                    <div class="timeline-content">
+                                        <a href="profile.html" class="name">Lesley Grauer</a> added new task <a href="#">Harvey Clinic</a>
+                                        <span class="time">4 mins ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-user">
+                                    <a href="profile.html" class="avatar" title="Jeffery Lalor" data-toggle="tooltip" style="background-color: #ff6d00">L</a>
+                                </div>
+                                <div class="activity-content">
+                                    <div class="timeline-content">
+                                        <a href="profile.html" class="name">Jeffery Lalor</a> added <a href="profile.html" class="name">Loren Gatlin</a> and <a href="profile.html" class="name">Tarah Shropshire</a> to project <a href="#">Patient appointment booking</a>
+                                        <span class="time">6 mins ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-user">
+                                    <a href="profile.html" title="Catherine Manseau" data-toggle="tooltip" class="avatar">
+                                        <img alt="Catherine Manseau" src="assets/img/user.jpg" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <div class="activity-content">
+                                    <div class="timeline-content">
+                                        <a href="profile.html" class="name">Catherine Manseau</a> completed task <a href="#">Appointment booking with payment gateway</a>
+                                        <span class="time">12 mins ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-user">
+                                    <a href="#" title="Bernardo Galaviz" data-toggle="tooltip" class="avatar">
+                                        <img alt="Bernardo Galaviz" src="assets/img/user.jpg" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <div class="activity-content">
+                                    <div class="timeline-content">
+                                        <a href="profile.html" class="name">Bernardo Galaviz</a> changed the task name <a href="#">Doctor available module</a>
+                                        <span class="time">1 day ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-user">
+                                    <a href="profile.html" title="Mike Litorus" data-toggle="tooltip" class="avatar">
+                                        <img alt="Mike Litorus" src="assets/img/user.jpg" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <div class="activity-content">
+                                    <div class="timeline-content">
+                                        <a href="profile.html" class="name">Mike Litorus</a> added new task <a href="#">Patient and Doctor video conferencing</a>
+                                        <span class="time">2 days ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="activity-user">
+                                    <a href="profile.html" title="Jeffery Lalor" data-toggle="tooltip" class="avatar">
+                                        <img alt="Jeffery Lalor" src="assets/img/user.jpg" class="img-responsive img-circle">
+                                    </a>
+                                </div>
+                                <div class="activity-content">
+                                    <div class="timeline-content">
+                                        <a href="profile.html" class="name">Jeffery Lalor</a> added <a href="profile.html" class="name">Jeffrey Warden</a> and <a href="profile.html" class="name">Bernardo Galaviz</a> to the task of <a href="#">Private chat module</a>
+                                        <span class="time">7 days ago</span>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="panel panel-table">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Recent Projects</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped custom-table m-b-0">
+                                <thead>
+                                <tr>
+                                    <th class="col-md-3">Project Name </th>
+                                    <th class="col-md-3">Progress</th>
+                                    <th class="text-right col-md-1">Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                    <td>
+                                        <h2><a href="project-view.html">Food and Drinks</a></h2>
+                                        <small class="block text-ellipsis">
+                                            <span class="text-xs">1</span> <span class="text-muted">open tasks, </span>
+                                            <span class="text-xs">9</span> <span class="text-muted">tasks completed</span>
+                                        </small>
+                                    </td>
+                                    <td>
+                                        <div class="progress progress-xs progress-striped">
+                                            <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="65%" style="width: 65%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2><a href="project-view.html">School Guru</a></h2>
+                                        <small class="block text-ellipsis">
+                                            <span class="text-xs">2</span> <span class="text-muted">open tasks, </span>
+                                            <span class="text-xs">5</span> <span class="text-muted">tasks completed</span>
+                                        </small>
+                                    </td>
+                                    <td>
+                                        <div class="progress progress-xs progress-striped">
+                                            <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="15%" style="width: 15%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2><a href="project-view.html">Penabook</a></h2>
+                                        <small class="block text-ellipsis">
+                                            <span class="text-xs">3</span> <span class="text-muted">open tasks, </span>
+                                            <span class="text-xs">3</span> <span class="text-muted">tasks completed</span>
+                                        </small>
+                                    </td>
+                                    <td>
+                                        <div class="progress progress-xs progress-striped">
+                                            <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="49%" style="width: 49%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2><a href="project-view.html">Harvey Clinic</a></h2>
+                                        <small class="block text-ellipsis">
+                                            <span class="text-xs">12</span> <span class="text-muted">open tasks, </span>
+                                            <span class="text-xs">4</span> <span class="text-muted">tasks completed</span>
+                                        </small>
+                                    </td>
+                                    <td>
+                                        <div class="progress progress-xs progress-striped">
+                                            <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="88%" style="width: 88%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <h2><a href="project-view.html">The Gigs</a></h2>
+                                        <small class="block text-ellipsis">
+                                            <span class="text-xs">7</span> <span class="text-muted">open tasks, </span>
+                                            <span class="text-xs">14</span> <span class="text-muted">tasks completed</span>
+                                        </small>
+                                    </td>
+                                    <td>
+                                        <div class="progress progress-xs progress-striped">
+                                            <div class="progress-bar bg-success" role="progressbar" data-toggle="tooltip" title="100%" style="width: 100%"></div>
+                                        </div>
+                                    </td>
+                                    <td class="text-right">
+                                        <div class="dropdown">
+                                            <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
+                                            <ul class="dropdown-menu pull-right">
+                                                <li><a href="#" title="Edit"><i class="fa fa-pencil m-r-5"></i> Edit</a></li>
+                                                <li><a href="#" title="Delete"><i class="fa fa-trash-o m-r-5"></i> Delete</a></li>
+                                            </ul>
+                                        </div>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="panel-footer">
+                        <a href="projects.html" class="text-primary">View all projects</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
