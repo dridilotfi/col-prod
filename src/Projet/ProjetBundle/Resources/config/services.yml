@@ -2,3 +2,7 @@ services:
 #    projet.example:
 #        class: Projet\ProjetBundle\Example
 #        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+    projet:
+        class: Projet\ProjetBundle\Services\Projet
+        arguments: [@request_stack, @doctrine.orm.entity_manager, @service_container ]

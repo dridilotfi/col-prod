@@ -8,7 +8,11 @@ class ProjetController extends Controller
 {
     public function indexAction()
     {
-        return $this->render('ProjetBundle:Projet:projet.html.twig');
+        $projets = $this->container->get('projet');
+
+        return $this->render('ProjetBundle:Projet:projet.html.twig', array(
+            'projets' => $projets->mesProjets()
+        ));
     }
 
     public function detailsAction()

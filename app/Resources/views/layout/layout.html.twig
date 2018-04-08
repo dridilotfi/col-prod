@@ -44,16 +44,20 @@
                     </li>
                     <li class="dropdown">
                         <a href="profile.html" class="dropdown-toggle user-link" data-toggle="dropdown" title="Admin">
-							<span class="user-img"><img class="img-circle" src="{{ asset('assets/img/user.jpg') }}" width="30" alt="Admin">
+							<span class="user-img"><img class="img-circle" src="{{ asset('assets/img/avatar.jpg') }}" width="30" alt="Admin">
 							<span class="status online"></span></span>
-                            <span>Dridi Lotfi</span>
+                            <span>
+                                {% if app.user %}
+                                    {{ app.user.username }}
+                                {% endif %}
+                            </span>
                             <i class="caret"></i>
                         </a>
                         <ul class="dropdown-menu">
                             <li><a href="profile.html">Mon Profile</a></li>
                             <li><a href="edit-profile.html">Modifier Profile</a></li>
                             <li><a href="settings.html">Parametrages</a></li>
-                            <li><a href="login.html">Deconnexion</a></li>
+                            <li><a href="{{ path('fos_user_security_logout') }}">Deconnexion</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -63,7 +67,7 @@
                         <li><a href="profile.html">My Profile</a></li>
                         <li><a href="edit-profile.html">Edit Profile</a></li>
                         <li><a href="settings.html">Settings</a></li>
-                        <li><a href="login.html">Logout</a></li>
+                        <li><a href="{{ path('fos_user_security_logout') }}">Deconnexion</a></li>
                     </ul>
                 </div>
             </div>
