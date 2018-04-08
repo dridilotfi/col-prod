@@ -1,3 +1,7 @@
 projet:
     path:     /
     defaults: { _controller: ProjetBundle:Projet:index }
+
+projet_details:
+    path:     /details
+    defaults: { _controller: ProjetBundle:Projet:details }

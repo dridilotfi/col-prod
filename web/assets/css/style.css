@@ -1394,7 +1394,7 @@ table.table-inbox tbody tr.checked {background-color: #ffffcc;}
 	.nav-tabs.nav-tabs-top > li > a, .nav-tabs.nav-tabs-top > li > a:hover, .nav-tabs.nav-tabs-top > li > a:focus {border-width: 2px 0 0 0;}
 	.nav-tabs.nav-tabs-top > li.open > a, .nav-tabs.nav-tabs-top > li > a:hover, .nav-tabs.nav-tabs-top > li > a:focus {border-top-color: #ddd;}
 	.nav-tabs.nav-tabs-top > li + li > a {margin-left: 1px;}
-	.nav-tabs.nav-tabs-top > li.active > a, .nav-tabs.nav-tabs-top > li.active > a:hover, .nav-tabs.nav-tabs-top > li.active > a:focus {border-top-color: #ff9b44;}
+	.nav-tabs.nav-tabs-top > li.active > a, .nav-tabs.nav-tabs-top > li.active > a:hover, .nav-tabs.nav-tabs-top > li.active > a:focus {border-top-color: black;}
 	.nav-tabs.nav-tabs-bottom > li {margin-bottom: -1px;}
 	.nav-tabs.nav-tabs-bottom > li.active > a, .nav-tabs.nav-tabs-bottom > li.active > a:hover, .nav-tabs.nav-tabs-bottom > li.active > a:focus {border-bottom-width: 2px;border-color: transparent;border-bottom-color: #ff9b44;background-color: transparent;transition: none 0s ease 0s; -moz-transition: none 0s ease 0s; -o-transition: none 0s ease 0s; -ms-transition: none 0s ease 0s; -webkit-transition: none 0s ease 0s;}
 	.nav-tabs.nav-tabs-bottom > li {margin-bottom: -1px;}
@@ -1513,4 +1513,50 @@ table.table-inbox tbody tr.checked {background-color: #ffffcc;}
 	.pull-left.ticket-view-details {width: 80%;}
 	.chat-menu.navbar-nav > li > a {margin-left: 10px;}
 	.contact-alphapets {top:113px;}
+}
+
+.panel-todo .panel-heading {
+	background: #676767!important;
+    color: white;
+}
+
+.panel-inprogress .panel-heading {
+	background: #009efb!important;
+    color: white;
+}
+
+.panel-intest .panel-heading {
+    background: #f62d51!important;
+    color: white;
+}
+
+.panel-done .panel-heading {
+    background: #55ce63!important;
+    color: white;
+}
+
+.action-icon-details {color: #fff;font-size: 18px;padding: 0 10px;display:inline-block;}
+
+.dash-widget-todo {
+	background: #676767;
+	border: 1px solid #676767;
+	color:#fff;
+}
+
+.dash-widget-inprogress {
+	background: #009efb;
+    border: 1px solid #009efb;
+    color:#fff;
+}
+
+.dash-widget-intest {
+	background: #f62d51;
+	border: 1px solid #f62d51;
+	color:#fff;
+}
+
+.dash-widget-done {
+	background: #55ce63;
+	border: 1px solid #55ce63;
+	color:#fff;
 }

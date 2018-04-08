@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9c591b87-039c-438a-8d35-d11a3a42fb71" name="Default" comment="" />
+    <list default="true" id="9c591b87-039c-438a-8d35-d11a3a42fb71" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php" afterPath="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php" />
+      <change beforePath="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml" afterPath="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml" />
+      <change beforePath="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/projet.html.twig" afterPath="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/projet.html.twig" />
+      <change beforePath="$PROJECT_DIR$/web/assets/css/style.css" afterPath="$PROJECT_DIR$/web/assets/css/style.css" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,44 +23,89 @@
       <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Resources/views/layout/layout.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="849">
-              <caret line="71" column="64" lean-forward="false" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
-              <folding>
-                <element signature="e#4360#4368#0#Twig" expanded="true" />
-                <element signature="e#4504#4510#0#Twig" expanded="true" />
-              </folding>
+            <state relative-caret-position="611">
+              <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projet.html.twig" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/projet.html.twig">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-              <folding>
-                <element signature="e#3831#3849#0#HTML" expanded="true" />
-                <element signature="e#7247#7265#0#HTML" expanded="true" />
-                <element signature="e#7549#7556#1#HTML" expanded="true" />
-                <element signature="e#9266#9273#1#HTML" expanded="true" />
-                <element signature="e#10799#11539#0#HTML" expanded="false" />
-              </folding>
+            <state relative-caret-position="273">
+              <caret line="1396" column="159" lean-forward="false" selection-start-line="1396" selection-start-column="159" selection-end-line="1396" selection-end-column="159" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.jpg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/assets/img/user.jpg">
-          <provider selected="true" editor-type-id="images">
-            <state />
+      <file leaf-file-name="projet.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/projet.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="supprimer.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/supprimer.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modifier.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/modifier.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="details.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/details.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="40" column="103" lean-forward="false" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="103" />
+              <folding>
+                <element signature="e#12#35#0#Twig" expanded="true" />
+                <element signature="e#4897#34975#0#HTML" expanded="false" />
+                <element signature="e#6405#12842#0#HTML" expanded="false" />
+                <element signature="e#6954#6981#0#HTML" expanded="true" />
+                <element signature="e#12573#12591#0#HTML" expanded="true" />
+                <element signature="e#13691#20134#0#HTML" expanded="false" />
+                <element signature="e#14246#14273#0#HTML" expanded="true" />
+                <element signature="e#19865#19883#0#HTML" expanded="true" />
+                <element signature="e#20981#27420#0#HTML" expanded="false" />
+                <element signature="e#21532#21559#0#HTML" expanded="true" />
+                <element signature="e#27151#27169#0#HTML" expanded="true" />
+                <element signature="e#28808#28835#0#HTML" expanded="true" />
+                <element signature="e#34427#34445#0#HTML" expanded="true" />
+                <element signature="e#35071#37927#0#HTML" expanded="false" />
+                <element signature="e#37944#39993#0#HTML" expanded="false" />
+                <element signature="e#40010#42130#0#HTML" expanded="false" />
+                <element signature="e#65765#65772#1#HTML" expanded="true" />
+                <element signature="e#68988#68995#1#HTML" expanded="true" />
+                <element signature="e#72215#72222#1#HTML" expanded="true" />
+                <element signature="e#74924#74930#1#HTML" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="projet.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
+            <state relative-caret-position="30">
+              <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
               <folding />
             </state>
           </provider>
@@ -63,60 +114,35 @@
       <file leaf-file-name="ProjetController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
-                <element signature="e#222#261#1#PHP" expanded="true" />
+                <element signature="e#222#260#1#PHP" expanded="true" />
+                <element signature="e#341#380#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/MessageController.php">
+      <file leaf-file-name="ModalProjetController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ModalProjetController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+            <state relative-caret-position="270">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
-                <element signature="e#224#264#1#PHP" expanded="true" />
+                <element signature="e#231#272#1#PHP" expanded="true" />
+                <element signature="e#354#394#1#PHP" expanded="true" />
+                <element signature="e#475#514#1#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include/message.html.twig">
+      <file leaf-file-name="ajouter.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/ajouter.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="23" />
-              <folding>
-                <element signature="e#12#35#0#Twig" expanded="true" />
-                <element signature="e#1538#1571#0#HTML" expanded="true" />
-                <element signature="e#7716#7734#0#HTML" expanded="true" />
-                <element signature="e#9492#9510#0#HTML" expanded="true" />
-                <element signature="e#11265#11283#0#HTML" expanded="true" />
-                <element signature="e#13044#13062#0#HTML" expanded="true" />
-                <element signature="e#14819#14838#0#HTML" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notification.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include/notification.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="75">
+              <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -137,9 +163,26 @@
       <find>Gestion de projet</find>
       <find>img</find>
       <find>select</find>
-      <find>dead</find>
       <find>user.jpg</find>
+      <find>dead</find>
+      <find>btn-info</find>
+      <find>.btn-primary</find>
+      <find>panel-danger</find>
+      <find>for</find>
+      <find>.action-icon</find>
+      <find>action</find>
+      <find>default</find>
+      <find>action-ic</find>
+      <find>success</find>
+      <find>border-top-color</find>
+      <find>.nav-tabs.nav-tabs-top &gt; li.active &gt; a, .nav-tabs.nav-tabs-top &gt; li.active &gt; a:hover, .nav-tabs.nav-tabs-top &gt; li.active &gt; a:focus</find>
+      <find>to do</find>
+      <find>delete</find>
+      <find>112</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -155,12 +198,20 @@
         <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/DefaultController.php" />
         <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include/message.html.twig" />
         <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/MessageController.php" />
-        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php" />
-        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml" />
         <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include/notification.html.twig" />
-        <option value="$PROJECT_DIR$/app/Resources/views/layout/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml" />
         <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/projet.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/details.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/supprimer.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/modifier.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/ajouter.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ModalProjetController.php" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/projet.html.twig" />
+        <option value="$PROJECT_DIR$/web/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/app/Resources/views/layout/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/details.html.twig" />
       </list>
     </option>
   </component>
@@ -216,6 +267,7 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -231,6 +283,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -358,7 +411,7 @@
               <item name="ProjetBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="include" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Projet" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="gestion" type="b2602c69:ProjectViewProjectNode" />
@@ -375,7 +428,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -387,15 +439,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet" />
       <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller" />
-      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing" />
       <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default" />
+      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing" />
       <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include" />
-      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/include" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet" />
+      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/projet" />
+      <recent name="$PROJECT_DIR$/src/Projet/ProjetBundle/Controller" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -424,12 +478,13 @@
       <option name="presentableId" value="Default" />
       <updated>1523134789711</updated>
       <workItem from="1523134790825" duration="132000" />
-      <workItem from="1523135093618" duration="5247000" />
+      <workItem from="1523135093618" duration="6490000" />
+      <workItem from="1523182889893" duration="5778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5379000" />
+    <option name="totallyTimeSpent" value="12400000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -447,15 +502,14 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="GitLabIntegration" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20704375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06990395" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="GitHub Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="GitHub Reviews" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -463,6 +517,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -477,6 +532,109 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1065">
+          <caret line="71" column="64" lean-forward="false" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/projet.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="102" lean-forward="false" selection-start-line="76" selection-start-column="102" selection-end-line="76" selection-end-column="102" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/img/user.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="51" lean-forward="false" selection-start-line="6" selection-start-column="51" selection-end-line="6" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding>
+            <element signature="e#222#260#1#PHP" expanded="true" />
+            <element signature="e#341#380#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/MessageController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include/message.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="false" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#12#35#0#Twig" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/include/notification.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/details.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5940">
+          <caret line="396" column="62" lean-forward="false" selection-start-line="396" selection-start-column="62" selection-end-line="396" selection-end-column="62" />
+          <folding>
+            <element signature="e#12#35#0#Twig" expanded="true" />
+            <element signature="e#4897#34975#0#HTML" expanded="false" />
+            <element signature="e#6405#12842#0#HTML" expanded="false" />
+            <element signature="e#6954#6981#0#HTML" expanded="true" />
+            <element signature="e#12573#12591#0#HTML" expanded="true" />
+            <element signature="e#13691#20134#0#HTML" expanded="false" />
+            <element signature="e#14246#14273#0#HTML" expanded="true" />
+            <element signature="e#19865#19883#0#HTML" expanded="true" />
+            <element signature="e#20981#27420#0#HTML" expanded="false" />
+            <element signature="e#21532#21559#0#HTML" expanded="true" />
+            <element signature="e#27151#27169#0#HTML" expanded="true" />
+            <element signature="e#28808#28835#0#HTML" expanded="true" />
+            <element signature="e#34427#34445#0#HTML" expanded="true" />
+            <element signature="e#35071#37927#0#HTML" expanded="false" />
+            <element signature="e#37944#39993#0#HTML" expanded="false" />
+            <element signature="e#40010#42130#0#HTML" expanded="false" />
+            <element signature="e#65765#65772#1#HTML" expanded="true" />
+            <element signature="e#68988#68995#1#HTML" expanded="true" />
+            <element signature="e#72215#72222#1#HTML" expanded="true" />
+            <element signature="e#74924#74930#1#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -512,7 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="4" lean-forward="true" selection-start-line="31" selection-start-column="4" selection-end-line="31" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -520,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="50" lean-forward="false" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -556,9 +712,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#224#264#1#PHP" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -567,13 +721,7 @@
         <state relative-caret-position="30">
           <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="23" />
           <folding>
-            <element signature="e#12#35#0#Twig" expanded="true" />
-            <element signature="e#1538#1571#0#HTML" expanded="true" />
-            <element signature="e#7716#7734#0#HTML" expanded="true" />
-            <element signature="e#9492#9510#0#HTML" expanded="true" />
-            <element signature="e#11265#11283#0#HTML" expanded="true" />
-            <element signature="e#13044#13062#0#HTML" expanded="true" />
-            <element signature="e#14819#14838#0#HTML" expanded="true" />
+            <element signature="e#12#35#0#Twig" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -582,15 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="20" lean-forward="true" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="15" lean-forward="false" selection-start-line="1" selection-start-column="15" selection-end-line="1" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,17 +737,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="67" lean-forward="false" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="e#222#261#1#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -616,7 +744,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -633,27 +760,110 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout/layout.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/config/routing/projet.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="849">
-          <caret line="71" column="64" lean-forward="false" selection-start-line="71" selection-start-column="64" selection-end-line="71" selection-end-column="64" />
+        <state relative-caret-position="30">
+          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/supprimer.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ProjetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
-            <element signature="e#4360#4368#0#Twig" expanded="true" />
-            <element signature="e#4504#4510#0#Twig" expanded="true" />
+            <element signature="e#222#260#1#PHP" expanded="true" />
+            <element signature="e#341#380#1#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Default/projet.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/ajouter.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="12" column="43" lean-forward="true" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="75">
+          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Controller/ModalProjetController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
           <folding>
-            <element signature="e#3831#3849#0#HTML" expanded="true" />
-            <element signature="e#7247#7265#0#HTML" expanded="true" />
-            <element signature="e#7549#7556#1#HTML" expanded="true" />
-            <element signature="e#9266#9273#1#HTML" expanded="true" />
-            <element signature="e#10799#11539#0#HTML" expanded="false" />
+            <element signature="e#231#272#1#PHP" expanded="true" />
+            <element signature="e#354#394#1#PHP" expanded="true" />
+            <element signature="e#475#514#1#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/projet.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="66" lean-forward="false" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/modifier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" lean-forward="false" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="1396" column="159" lean-forward="false" selection-start-line="1396" selection-start-column="159" selection-end-line="1396" selection-end-column="159" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/layout/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="611">
+          <caret line="91" column="50" lean-forward="false" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Projet/ProjetBundle/Resources/views/Projet/details.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="40" column="103" lean-forward="false" selection-start-line="40" selection-start-column="96" selection-end-line="40" selection-end-column="103" />
+          <folding>
+            <element signature="e#12#35#0#Twig" expanded="true" />
+            <element signature="e#4897#34975#0#HTML" expanded="false" />
+            <element signature="e#6405#12842#0#HTML" expanded="false" />
+            <element signature="e#6954#6981#0#HTML" expanded="true" />
+            <element signature="e#12573#12591#0#HTML" expanded="true" />
+            <element signature="e#13691#20134#0#HTML" expanded="false" />
+            <element signature="e#14246#14273#0#HTML" expanded="true" />
+            <element signature="e#19865#19883#0#HTML" expanded="true" />
+            <element signature="e#20981#27420#0#HTML" expanded="false" />
+            <element signature="e#21532#21559#0#HTML" expanded="true" />
+            <element signature="e#27151#27169#0#HTML" expanded="true" />
+            <element signature="e#28808#28835#0#HTML" expanded="true" />
+            <element signature="e#34427#34445#0#HTML" expanded="true" />
+            <element signature="e#35071#37927#0#HTML" expanded="false" />
+            <element signature="e#37944#39993#0#HTML" expanded="false" />
+            <element signature="e#40010#42130#0#HTML" expanded="false" />
+            <element signature="e#65765#65772#1#HTML" expanded="true" />
+            <element signature="e#68988#68995#1#HTML" expanded="true" />
+            <element signature="e#72215#72222#1#HTML" expanded="true" />
+            <element signature="e#74924#74930#1#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
