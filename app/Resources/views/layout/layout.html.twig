@@ -98,6 +98,9 @@
         <script type="text/javascript" src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
         <script type="text/javascript" src="{{ asset('assets/js/jquery.slimscroll.js') }}"></script>
         <script type="text/javascript" src="{{ asset('assets/js/app.js') }}"></script>
+        <script src="{{ asset('bundles/fosjsrouting/js/router.js') }}"></script>
+        <script src="{{ path('fos_js_routing_js', { callback: 'fos.Router.setData' }) }}"></script>
+        <script type="text/javascript" src="{{ asset('monScript.js') }}"></script>
         {% block javascripts %}{% endblock %}
     </body>
 </html>

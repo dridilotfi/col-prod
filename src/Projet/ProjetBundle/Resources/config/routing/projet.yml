@@ -5,3 +5,15 @@ projet:
 projet_details:
     path:     /details
     defaults: { _controller: ProjetBundle:Projet:details }
+
+projet_ajout:
+    path:     /ajout
+    defaults: { _controller: ProjetBundle:ModalProjet:ajoutProjet }
+    options:
+        expose: true
+
+projet_supprimer:
+    path:     /suppression
+    defaults: { _controller: ProjetBundle:ModalProjet:supprimerProjet}
+    options:
+        expose: true

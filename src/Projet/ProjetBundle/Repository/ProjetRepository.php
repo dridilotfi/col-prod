@@ -17,7 +17,8 @@ class ProjetRepository extends \Doctrine\ORM\EntityRepository
             ->leftJoin('p.team','t')
             ->where('p.User  = :userConnecte')
             ->orWhere('t.id  = :userConnecte')
-            ->setParameter('userConnecte', $userId);
+            ->setParameter('userConnecte', $userId)
+            ->orderBy('p.dateAjoutProjet', 'DESC');
 
         return $req->getQuery()->getResult();
     }

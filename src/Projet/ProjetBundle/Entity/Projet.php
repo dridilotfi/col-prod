@@ -36,13 +36,6 @@ class Projet
     private $descriptionProjet;
 
     /**
-     * @var string
-     *
-     * @ORM\Column(name="date_ajout_projet", type="string", length=255)
-     */
-    private $dateAjoutProjet;
-
-    /**
      * @ORM\ManyToOne(targetEntity="Projet\ProjetBundle\Entity\User", cascade={"persist"})
      * @ORM\JoinColumn(nullable=false,onDelete="CASCADE")
      */
@@ -53,6 +46,13 @@ class Projet
      * @ORM\JoinColumn(nullable=false,onDelete="CASCADE")
      */
     private $team;
+
+    /**
+     * @var \DateTime
+     *
+     * @ORM\Column(name="date_ajout_projet", type="datetime", nullable=true)
+     */
+    private $dateAjoutProjet;
 
     /**
      * Get id
@@ -113,30 +113,6 @@ class Projet
     }
 
     /**
-     * Set dateAjoutProjet
-     *
-     * @param string $dateAjoutProjet
-     *
-     * @return Projet
-     */
-    public function setDateAjoutProjet($dateAjoutProjet)
-    {
-        $this->dateAjoutProjet = $dateAjoutProjet;
-
-        return $this;
-    }
-
-    /**
-     * Get dateAjoutProjet
-     *
-     * @return string
-     */
-    public function getDateAjoutProjet()
-    {
-        return $this->dateAjoutProjet;
-    }
-
-    /**
      * Set user
      *
      * @param \Projet\ProjetBundle\Entity\User $user
@@ -165,6 +141,8 @@ class Projet
     public function __construct()
     {
         $this->team = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->setDateAjoutProjet(new \DateTime);
+
     }
 
     /**
@@ -199,5 +177,29 @@ class Projet
     public function getTeam()
     {
         return $this->team;
+    }
+
+    /**
+     * Set dateAjoutProjet
+     *
+     * @param \DateTime $dateAjoutProjet
+     *
+     * @return Projet
+     */
+    public function setDateAjoutProjet($dateAjoutProjet)
+    {
+        $this->dateAjoutProjet = $dateAjoutProjet;
+
+        return $this;
+    }
+
+    /**
+     * Get dateAjoutProjet
+     *
+     * @return \DateTime
+     */
+    public function getDateAjoutProjet()
+    {
+        return $this->dateAjoutProjet;
     }
 }
