@@ -3,8 +3,10 @@ projet:
     defaults: { _controller: ProjetBundle:Projet:index }
 
 projet_details:
-    path:     /details
+    path:     /{slugProjet}
     defaults: { _controller: ProjetBundle:Projet:details }
+    requirements:
+      lensModel: '[a-zA-Z0-9-_\/-\s.]+'
 
 projet_ajout:
     path:     /ajout
@@ -15,5 +17,17 @@ projet_ajout:
 projet_supprimer:
     path:     /suppression
     defaults: { _controller: ProjetBundle:ModalProjet:supprimerProjet}
+    options:
+        expose: true
+
+projet_get:
+    path:     /get
+    defaults: { _controller: ProjetBundle:ModalProjet:getProjet}
+    options:
+        expose: true
+
+projet_modif:
+    path:     /modif
+    defaults: { _controller: ProjetBundle:ModalProjet:modifProjet}
     options:
         expose: true

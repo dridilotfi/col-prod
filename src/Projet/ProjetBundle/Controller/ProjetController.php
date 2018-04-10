@@ -15,7 +15,7 @@ class ProjetController extends Controller
         ));
     }
 
-    public function detailsAction()
+    public function detailsAction($slugProjet)
     {
         return $this->render('ProjetBundle:Projet:details.html.twig');
     }

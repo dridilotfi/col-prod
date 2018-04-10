@@ -24,6 +24,13 @@ class Projet
     /**
      * @var string
      *
+     * @ORM\Column(name="slug_projet", type="string", length=255)
+     */
+    private $slugProjet;
+
+    /**
+     * @var string
+     *
      * @ORM\Column(name="titre_projet", type="string", length=255)
      */
     private $titreProjet;
@@ -201,5 +208,29 @@ class Projet
     public function getDateAjoutProjet()
     {
         return $this->dateAjoutProjet;
+    }
+
+    /**
+     * Set slugProjet
+     *
+     * @param string $slugProjet
+     *
+     * @return Projet
+     */
+    public function setSlugProjet($slugProjet)
+    {
+        $this->slugProjet = $slugProjet;
+
+        return $this;
+    }
+
+    /**
+     * Get slugProjet
+     *
+     * @return string
+     */
+    public function getSlugProjet()
+    {
+        return $this->slugProjet;
     }
 }

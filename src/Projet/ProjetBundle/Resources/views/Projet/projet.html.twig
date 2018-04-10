@@ -17,11 +17,11 @@
                         <div class="dropdown profile-action">
                             <a href="#" class="action-icon dropdown-toggle" data-toggle="dropdown" aria-expanded="false"><i class="fa fa-ellipsis-v"></i></a>
                             <ul class="dropdown-menu pull-right">
-                                <li><a href="#" data-toggle="modal" data-target="#edit_project"><i class="fa fa-pencil m-r-5"></i> Modifier</a></li>
+                                <li><a href="#" data-toggle="modal" data-target="#edit_project" data-id="{{ projet.id }}" class="openModalEditProjet"><i class="fa fa-pencil m-r-5"></i> Modifier</a></li>
                                 <li><a href="#" data-toggle="modal" data-target="#delete_project" data-id="{{ projet.id }}" class="openModalDeleteProjet"><i class="fa fa-trash-o m-r-5"></i> Supprimer</a></li>
                             </ul>
                         </div>
-                        <h4 class="project-title"><a href="{{ path('projet_details') }}">{{ projet.titreProjet }}</a></h4>
+                        <h4 class="project-title"><a href="{{ path('projet_details', {'slugProjet':projet.slugProjet}) }}">{{ projet.titreProjet }}</a></h4>
                         <small class="block text-ellipsis m-b-15">
                             <span class="text-xs">2</span> <span class="text-muted">open tasks, </span>
                             <span class="text-xs">5</span> <span class="text-muted">tasks completed</span>
